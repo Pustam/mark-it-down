@@ -1,4 +1,4 @@
-# marked
+# mark-it-down
 
 > A full-featured markdown parser and compiler, written in JavaScript. Built
 > for speed.
@@ -8,6 +8,8 @@ Originally built by [chjj](https://github.com/chjj/)
 Customized to be used in [markdown-notes](https://github.com/markdown-note/markdown-notes).
 
 [![NPM version](https://badge.fury.io/js/marked.png)][badge]
+
+Forked from **v0.3.5**
 
 ## Install
 

@@ -1,11 +1,12 @@
 {
-  "name": "marked",
-  "version": "0.3.4",
-  "homepage": "https://github.com/chjj/marked",
+  "name": "mark-it-down",
+  "version": "0.3.6",
+  "homepage": "https://github.com/markdown-note/mark-it-down/",
   "authors": [
-    "Christopher Jeffrey <chjjeffrey@gmail.com>"
+    "Christopher Jeffrey <chjjeffrey@gmail.com>",
+    "Abijeet Patro <abijeetpatro@gmail.com>"
   ],
-  "description": "A markdown parser built for speed",
+  "description": "A markdown parser built for speed. Customized for markdown-notes.",
   "keywords": [
     "markdown",
     "markup",

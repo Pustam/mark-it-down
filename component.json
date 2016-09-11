@@ -1,8 +1,8 @@
 {
-  "name": "marked",
+  "name": "mark-it-down",
   "version": "0.3.4",
-  "repo": "chjj/marked",
-  "description": "A markdown parser built for speed",
+  "repo": "markdown-note/mark-it-down",
+  "description": "A markdown parser built for speed. Customized for markdown-notes.",
   "keywords": ["markdown", "markup", "html"],
   "scripts": ["lib/marked.js"],
   "main": "lib/marked.js",
