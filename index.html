@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Marked development page</title>
+  <meta charset="utf-8">
+</head>
+
+<body>
+  <textarea id="txtMarkdown" placeholder="Enter your markdown here!"></textarea>
+  <input type="submit" id="btnMarkIt" value="Mark it!">
+  <div id="displayArea"></div>
+</body>
+<script src="lib/marked.js"></script>
+<script type="text/javascript">
+  document.getElementById('btnMarkIt').addEventListener('click', markItDown);
+  var txtArea = document.getElementById('txtMarkdown');
+  var displayArea = document.getElementById('displayArea');
+  function markItDown() {
+    var markdownText = txtArea.value;
+    var htmlGenerated = marked(markdownText);
+    displayArea.innerHTML = htmlGenerated;
+  }
+</script>
+</html>
