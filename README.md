@@ -1,5 +1,7 @@
 # mark-it-down
 
+> Project is now archived. Please read here - https://github.com/Pustam/app#markdown-notes
+
 > A full-featured markdown parser and compiler, written in JavaScript. Built
 > for speed.
 
